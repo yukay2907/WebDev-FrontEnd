@@ -44,7 +44,7 @@ body {
 
 .create-note-input {
     border: none;
-    height: 60%;
+    height: 50%;
     width: 90%;
     border-radius: 15px;
     color: black;
@@ -53,8 +53,20 @@ body {
     text-align: center;
 }
 
-.create-note-input:focus {
-    outline: none;
+.create-note-heading {
+    border: none;
+    height: 10%;
+    width: 90%;
+    border-radius: 15px;
+    color: black;
+    padding: 10px;
+    display: flex;
+    text-align: center;
+}
+
+.create-note-input:focus,
+.create-note-heading:focus {   
+     outline: none;
 }
 
 .create-note-button {
